@@ -14,6 +14,8 @@ class ViewController: UIViewController {
   @IBOutlet weak var passwordTextField: UITextField!
   @IBOutlet weak var userImageView: UIImageView!
   @IBOutlet weak var nameLabel: UILabel!
+  
+  private let loginServiceURL = "https://9ea9b580-4517-4a59-8d41-d0db78da4d9f.mock.pstmn.io/login"
 
   override func viewDidLoad() {
     super.viewDidLoad()

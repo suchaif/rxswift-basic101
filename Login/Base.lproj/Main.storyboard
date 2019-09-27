@@ -28,6 +28,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eJI-Aj-v8b">
                                 <rect key="frame" x="16" y="210" width="382" height="30"/>
                                 <state key="normal" title="Login"/>
+                                <connections>
+                                    <action selector="tappedLoginButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q8S-4T-T96"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="igd-5q-qg5">
                                 <rect key="frame" x="40" y="260" width="334" height="128"/>
